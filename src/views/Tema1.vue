@@ -215,7 +215,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2
         p Cada lenguaje incorpora reglas sintácticas y semánticas que permiten representar algoritmos, pero su verdadero valor radica en el #[b nivel de abstracción que ofrece para resolver problemas]; es decir, en la capacidad de simplificar la complejidad del #[i hardware] y traducirla en estructuras comprensibles para el desarrollador.
-        .cajon.color-secundario.p-4.mb-2
+        .cajon.color-primario.p-4.mb-2
           p.mb-0 En este sentido, los lenguajes de programación operan como capas intermedias que desacoplan la lógica del negocio de la ejecución física, permitiendo que el desarrollador se concentre en la solución del problema sin necesidad de gestionar directamente los detalles del #[i hardware].
         p Para comprender realmente cómo funciona un lenguaje, es necesario analizarlo desde varias dimensiones que influyen directamente en su comportamiento y aplicabilidad:
       .col-lg-4.col-8.mb-4.mb-lg-0.order-lg-2.order-1
@@ -239,8 +239,13 @@
             p Incluye la plataforma sobre la cual se ejecuta el programa (máquina virtual, sistema operativo, navegador), influyendo en la portabilidad y el rendimiento.
     p El concepto clave para entender los lenguajes de programación es la #[b abstracción]. Un lenguaje abstrae tres niveles principales:
     SlyderB.mb-4(:datos="datosSlyder")
-    .cajon.color-secundario.p-4.mb-4
-      p.mb-0 El lenguaje actúa como intermediario entre el problema y la máquina, permitiendo que ambos se comuniquen sin complejidad directa.
+    .row.justify-content-center.mt-4
+      .col-lg-1.col-8.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img26.svg')
+      .col-lg-7
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 El lenguaje actúa como intermediario entre el problema y la máquina, permitiendo que ambos se comuniquen sin complejidad directa.
     p La elección de un lenguaje de programación no es una decisión superficial, ya que influye directamente en el rendimiento del sistema, la productividad del equipo de desarrollo, la calidad y mantenibilidad del código, la escalabilidad del sistema y la capacidad de integración con otras tecnologías, aspectos que en conjunto determinan la eficiencia y sostenibilidad de una solución de #[i software].
     p La tipología útil en proyectos reales combina la forma en que se ejecuta el código con el propósito para el cual se utiliza, tal como se aprecia en la siguiente tabla:
     .row.justify-content-center.align-items-center.mb-3

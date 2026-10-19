@@ -292,7 +292,7 @@
     p Las pruebas unitarias permiten medir la cobertura del código; es decir, el porcentaje de código que ha sido evaluado mediante pruebas. Sin embargo, una alta cobertura no garantiza calidad si las pruebas no están bien diseñadas.
     .row.justify-content-center.align-items-center
       .col-lg-10    
-        .p-4.cajon.color-secundario
+        .p-4.cajon.color-primario
           p El objetivo no es alcanzar el 100 % de cobertura, sino asegurar que las partes críticas del sistema estén correctamente validadas. Esto implica priorizar funcionalidades sensibles y escenarios de alto impacto.
 
 </template>

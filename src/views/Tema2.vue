@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Herramientas de desarrollo de #[i software]
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
       )
@@ -209,7 +209,7 @@
       h2 2.2 #[i Frameworks] y herramientas de apoyo al desarrollo
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1
-        .p-4.cajon.color-secundario.mb-2
+        .p-4.cajon.color-primario.mb-2
           p.mb-0 Los #[i frameworks] y herramientas de apoyo son componentes clave en el desarrollo moderno, ya que proporcionan #[b estructuras predefinidas, funcionalidades reutilizables y automatización de tareas], permitiendo construir aplicaciones de manera más eficiente y organizada.
         p A diferencia de los lenguajes de programación, los #[i frameworks] no definen cómo se escribe el código, sino #[b cómo se estructura y se organiza dentro de un entorno específico], promoviendo buenas prácticas y reduciendo la complejidad del desarrollo.
         p.mb-0 Un framework es un conjunto de librerías, reglas y convenciones que establecen una base sobre la cual se construyen aplicaciones. Su principal característica es la #[b inversión de control], donde el framework define el flujo general y el desarrollador implementa los componentes específicos.

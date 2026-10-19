@@ -143,10 +143,10 @@
           p.mb-0 Es importante destacar que la documentación y las buenas prácticas no son elementos independientes, sino complementarios. Un código bien escrito reduce la necesidad de documentación excesiva, mientras que una documentación adecuada facilita la comprensión del código.
         p.mb-0 En conjunto, permiten construir sistemas más robustos, donde la información está organizada tanto en el código como en los documentos asociados.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg')
       h5 Estructuración del código y mantenibilidad
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7.order-1.order-lg-2
+      .col-lg-6.order-1.order-lg-1
         .row.mb-4
           .col-lg-auto.d-none.d-lg-block
             figure
@@ -156,7 +156,7 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 En este contexto, prácticas como la separación de responsabilidades, el uso de funciones pequeñas y la organización por capas permiten mejorar la claridad del sistema.
         p Desde esta perspectiva, la estructuración del código no solo responde a criterios técnicos, sino que se refleja en la forma en que los distintos elementos del sistema se organizan y relacionan entre sí. La siguiente imagen permite visualizar esta organización, mostrando cómo una estructura clara y jerárquica contribuye a la mantenibilidad y a la separación efectiva de responsabilidades en el #[i software]:
-      .col-lg-5.col-8.mb-4.mb-lg-0.order-2.order-lg-1
+      .col-lg-6.col-8.mb-4.mb-lg-0.order-2.order-lg-1
         figure
           img(src='@/assets/curso/temas/tema5/img15.png', alt='Infografía de matriz RACI')
     .row.justify-content-center.align-items-center.mb-3
@@ -325,7 +325,7 @@
         p.mb-0 El diseño por capas (presentación, lógica, datos) es una de las estrategias más utilizadas, ya que separa responsabilidades y permite modificar cada nivel de manera independiente. A esto se suma la modularidad, donde el sistema se divide en unidades autónomas.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
-        .bgf2-2.text-center.p-3
+        .bgf2-1.text-center.p-3
           p.mb-0 Las estrategias de estructuración del código se dan de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.col-8.mb-4.mb-lg-0
@@ -357,7 +357,7 @@
           img(src='@/assets/curso/temas/tema5/img26.png' alt='AvatarTop')                        
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
-        .bgf2-2.text-center.p-3
+        .bgf2-1.text-center.p-3
           p.mb-0 El flujo de comprensión del código se da siguiendo esta secuencia:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12

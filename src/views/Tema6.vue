@@ -81,27 +81,27 @@
 
     .row.mb-5.d-flex.d-lg-none
       .col-lg-3.mb-4
-        .tarjeta.cajon.bgf13.p-4.h-100
+        .tarjeta.cajon.bgf15.p-4.h-100
           figure.mb-4
-            img(src='@/assets/curso/temas/tema6/img3_1.png', alt='alt')
+            img(src='@/assets/curso/temas/tema6/img3_1.png')
           h5 Planificación
           p.mb-0 Establece el marco de acción del proyecto, definiendo objetivos, alcance, tareas principales y recursos iniciales. Su función es orientar el desarrollo y facilitar la toma de decisiones sin pretender anticipar todos los detalles.
       .col-lg-3.mb-4
         .tarjeta.cajon.bgf13.p-4.h-100
           figure.mb-4
-            img(src='@/assets/curso/temas/tema6/img4_1.png', alt='alt')
+            img(src='@/assets/curso/temas/tema6/img4_1.png')
           h5 Ejecución
           p.mb-0 Corresponde a la realización de las actividades técnicas planificadas, donde el equipo desarrolla el #[i software], coordina tareas y produce los entregables, mientras la gestión asegura coherencia y continuidad del trabajo.
       .col-lg-3.mb-4
         .tarjeta.cajon.bgf13.p-4.h-100
           figure.mb-4
-            img(src='@/assets/curso/temas/tema6/img5_1.png', alt='alt')
+            img(src='@/assets/curso/temas/tema6/img5_1.png')
           h5 Medición
           p.mb-0 Se centra en evaluar el avance y la calidad del proyecto mediante indicadores como cumplimiento de tareas, uso de recursos y estado del producto, proporcionando información objetiva sobre el progreso.
       .col-lg-3.mb-4
         .tarjeta.cajon.bgf13.p-4.h-100
           figure.mb-4
-            img(src='@/assets/curso/temas/tema6/img6_1.png', alt='alt')
+            img(src='@/assets/curso/temas/tema6/img6_1.png')
           h5 Corrección
           p.mb-0 Implica realizar ajustes a partir de los resultados de la medición, modificando tareas, recursos o prioridades para corregir desviaciones, reducir riesgos y mantener el proyecto alineado con sus objetivos.
 
@@ -255,7 +255,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-8.mb-4.mb-lg-0
         figure
-        img(src='@/assets/curso/temas/tema6/img11.svg', alt='alt')
+        img(src='@/assets/curso/temas/tema6/img11.svg')
       .col-lg-9
         .cajon.bgf5.p-4.h-100
           ol.lista-ol--cuadro.lista-ol--separador
@@ -336,7 +336,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
-        .bgf2-2.text-center.p-3
+        .bgf2-1.text-center.p-3
           p.mb-0 Las siguientes son implicaciones prácticas:
 
     .row.justify-content-center.align-items-center.mb-4
@@ -429,16 +429,17 @@
         figure
           img(src='@/assets/curso/temas/tema6/img21.png', alt='')
       .col-lg-6
-        p.mb-4 La estimación de costos en el desarrollo de #[i software] no es un cálculo aislado, sino un proceso estructurado que depende de múltiples elementos interrelacionados. Estos elementos permiten transformar los requerimientos del sistema en una aproximación económica viable, considerando tanto el esfuerzo técnico como las condiciones del entorno.
-        .cajon.color-secundario.p-4.mb-4
-          p.mb-0 A nivel profesional, una estimación sólida no se basa únicamente en el tamaño del sistema, sino en la interacción entre: alcance, complejidad, recursos y contexto del proyecto. Comprender estos elementos permite reducir la incertidumbre y mejorar la toma de decisiones.
+        .cajon.color-secundario.p-4
+          p La estimación de costos en el desarrollo de #[i software] no es un cálculo aislado, sino un proceso estructurado que depende de múltiples elementos interrelacionados. Estos elementos permiten transformar los requerimientos del sistema en una aproximación económica viable, considerando tanto el esfuerzo técnico como las condiciones del entorno.
+        
+        p.mt-4 A nivel profesional, una estimación sólida no se basa únicamente en el tamaño del sistema, sino en la interacción entre: alcance, complejidad, recursos y contexto del proyecto. Comprender estos elementos permite reducir la incertidumbre y mejorar la toma de decisiones.
     
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Elementos fundamentales en la estimación de costos
     p.mb-4 Los elementos de estimación representan las variables que influyen directamente en el cálculo del costo. No todos tienen el mismo peso, pero en conjunto determinan la precisión de la estimación. Los siguientes, son dichos elementos:
 
-    .row.justify-content-center.BG01.align-items-center.px-5.mb-4
+    .row.justify-content-center.BG17.align-items-center.px-5.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema6/img22.png", alt="alt").img400.m-auto
@@ -569,10 +570,10 @@
       h5 Tipos de ajustes en la estimación
     p.mb-4 Dependiendo de las desviaciones detectadas, los ajustes pueden aplicarse en distintos niveles, cada uno orientado a restablecer el equilibrio del proyecto sin comprometer sus objetivos:
     
-    .BG01.p-5.mb-4
+    .BG19.p-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-12
-          LineaTiempoC.color-acento-botones
+          LineaTiempoC.color-acento-botones.p-4
             .row(titulo="")
               .col-lg-6.mb-4.mb-lg-0
                 figure
@@ -602,23 +603,25 @@
                 h5 Ajuste técnico
                 p Comprende decisiones relacionadas con el cambio o actualización de herramientas, tecnologías o enfoques de desarrollo. También incluye la optimización de procesos con el fin de aumentar la eficiencia, reducir errores y mejorar la calidad del producto final.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        .row.justify-content-center.align-items-center.bgf14
-          .col-lg-5.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema6/img34.png' style="margin-left:-12%", alt='AvatarTop')
-          .col-lg-7
-              br
-              .row.justify-content-center.align-items-center.mb-4
-                .col-lg-2.d-none.d-lg-block
-                  figure
-                    img(src='@/assets/curso/temas/tema6/img35.svg' style="width:120px", alt='AvatarTop')
-                .col-lg-10
-                  h5 Importancia del ajuste continuo
-              p El ajuste continuo permite mantener el control del proyecto, evitando desviaciones críticas que puedan comprometer el presupuesto o el tiempo de entrega.
-              p.mb-0 En metodologías ágiles, este proceso se realiza de forma iterativa en cada ciclo de desarrollo (#[i sprint]), lo que facilita la adaptación a cambios y mejora la precisión de las estimaciones futuras.
 
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.align-items-center.bgf9.p-4
+          .col-lg-12
+            p
+              b Importancia del ajuste continuo
+
+            .row.align-items-start.mt-4
+              .col-lg-1.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/tema6/img35.svg', style="width:100%")
+              .col-lg-11
+                p El ajuste continuo permite mantener el control del proyecto, evitando desviaciones críticas que puedan comprometer el presupuesto o el tiempo de entrega.
+
+                p En metodologías ágiles, este proceso se realiza de forma iterativa en cada ciclo de desarrollo (sprint), lo que facilita la adaptación a cambios y mejora la precisión de las estimaciones futuras.
+
+            
 </template>
 <script>
 export default {
