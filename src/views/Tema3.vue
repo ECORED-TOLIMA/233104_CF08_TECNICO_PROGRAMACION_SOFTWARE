@@ -78,7 +78,7 @@
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
               h4 Servidor de aplicaciones
-              p Se encarga de ejecutar la lógica del negocio. No solo responde solicitudes, sino que procesa información, aplica reglas, interactúa con bases de datos y genera respuestas dinámicas. Este tipo de servidor permite construir aplicaciones complejas donde la lógica no está en el cliente, sino centralizada en el #[i backend].
+              p Se encarga de ejecutar la lógica del negocio. No solo responde a las solicitudes, sino que procesa información, aplica reglas, interactúa con bases de datos y genera respuestas dinámicas. Este tipo de servidor permite construir aplicaciones complejas donde la lógica no está en el cliente, sino centralizada en el #[i backend].
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema3/img6.png', alt='Gráfico ilustrativo de uso de programa')
