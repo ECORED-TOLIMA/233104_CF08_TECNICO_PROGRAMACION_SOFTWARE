@@ -158,16 +158,21 @@
           figure
             img(src='@/assets/curso/temas/tema1/img13_1.svg', alt='Matriz RACI para dispositivos móviles')
     p.mb-4 Es importante tener presente que la organización lógica de un programa se da así:
+
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.d-none.d-lg-block.mb-4
+        .titulo-sexto.color-primario.mb-3.mt-4
+          h5 Figura 1.
+          span Organización lógica de un programa
         .d-none.d-lg-block.mb-4
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img14.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema1/img14.svg', alt='Figura 1 que contiene un diagrama de flujo que representa la organización lógica de un programa en cuatro etapas secuenciales: entrada, procesamiento, control de flujo y salida, conectadas mediante flechas de izquierda a derecha.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema1/img14_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema1/img14_1.svg', alt='Figura 1 que contiene un diagrama de flujo que representa la organización lógica de un programa en cuatro etapas secuenciales: entrada, procesamiento, control de flujo y salida, conectadas mediante flechas de izquierda a derecha.')
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Paradigmas de programación: enfoque conceptual
@@ -316,25 +321,25 @@
                   th Fortalezas
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Imperativo.
+                  td Imperativo.
                   td Estado mutable.
                   td Secuencial/condicional.
                   td Procedimientos.
                   td Control fino, rendimiento.
                 tr 
-                  th Orientado a objetos (OO).
+                  td Orientado a objetos (OO).
                   td Estado encapsulado.
                   td Mensajes entre objetos.
                   td Clases/objetos.
                   td Reutilización, modelado del dominio.
                 tr(style="background-color: #F3F9FF;")
-                  th Funcional.
+                  td Funcional.
                   td Inmutable.
                   td Composición de funciones.
                   td Funciones puras.
                   td Predicibilidad, paralelismo.
                 tr(style="background-color: #F3F9FF;")
-                  th Declarativo.
+                  td Declarativo.
                   td Implícito.
                   td Motor de evaluación.
                   td Reglas/consultas.
@@ -350,8 +355,8 @@
           img(src='@/assets/curso/temas/tema1/img24.svg' alt='AvatarTop')
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
-        .titulo-sexto.color-primario
-          h5 Figura 1.
+        .titulo-sexto.color-primario.mb-3.mt-4
+          h5 Figura 2.
           span Lenguajes de programación modernos y enfoque multiparadigma
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -359,10 +364,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img25.svg', alt='Figura 1 que relaciona las acciones que componen un lenguaje de programación moderno, ilustrando la combinación de múltiples paradigmas y enfoques de desarrollo, así como la influencia del contexto, los requisitos del sistema y el ecosistema tecnológico en la construcción de soluciones de <em>software</em> mantenibles, escalables y adaptables.')
+                img(src='@/assets/curso/temas/tema1/img25.svg', alt='Figura 2 que relaciona las acciones que componen un lenguaje de programación moderno, ilustrando la combinación de múltiples paradigmas y enfoques de desarrollo, así como la influencia del contexto, los requisitos del sistema y el ecosistema tecnológico en la construcción de soluciones de <em>software</em> mantenibles, escalables y adaptables.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema1/img25_1.svg', alt='Figura 1 que relaciona las acciones que componen un lenguaje de programación moderno, ilustrando la combinación de múltiples paradigmas y enfoques de desarrollo, así como la influencia del contexto, los requisitos del sistema y el ecosistema tecnológico en la construcción de soluciones de <em>software</em> mantenibles, escalables y adaptables.')
+            img(src='@/assets/curso/temas/tema1/img25_1.svg', alt='Figura 2 que relaciona las acciones que componen un lenguaje de programación moderno, ilustrando la combinación de múltiples paradigmas y enfoques de desarrollo, así como la influencia del contexto, los requisitos del sistema y el ecosistema tecnológico en la construcción de soluciones de <em>software</em> mantenibles, escalables y adaptables.')
       
       
 

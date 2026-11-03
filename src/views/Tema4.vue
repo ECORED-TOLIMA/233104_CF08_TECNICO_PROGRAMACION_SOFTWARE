@@ -90,27 +90,27 @@
                   th Valor en la validación
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Identificador.
+                  td Identificador.
                   td Permite su control y trazabilidad.
                   td Organización del proceso.
                 tr 
-                  th Descripción.
+                  td Descripción.
                   td Define el objetivo de la prueba.
                   td Contexto de evaluación.
                 tr(style="background-color: #F3F9FF;")
-                  th Condiciones iniciales.
+                  td Condiciones iniciales.
                   td Estado previo requerido.
                   td Control del entorno.
                 tr
-                  th Datos de entrada.
+                  td Datos de entrada.
                   td Información a evaluar.
                   td Simulación de escenarios.
                 tr(style="background-color: #F3F9FF;")
-                  th Resultado esperado.
+                  td Resultado esperado.
                   td Comportamiento correcto.
                   td Referencia de validación.
                 tr
-                  th Resultado obtenido.
+                  td Resultado obtenido.
                   td Resultado real.
                   td Comparación objetiva.
     .titulo.mb-4(data-aos="fade-left")
@@ -148,19 +148,19 @@
                   th Aplicación práctica
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Partición de equivalencia.
+                  td Partición de equivalencia.
                   td Agrupa entradas similares.
                   td Reduce cantidad de pruebas.
                 tr 
-                  th Valores límite.
+                  td Valores límite.
                   td Evalúa extremos.
                   td Detecta errores críticos.
                 tr(style="background-color: #F3F9FF;")
-                  th Tablas de decisión.
+                  td Tablas de decisión.
                   td Analiza combinaciones.
                   td Sistemas con múltiples condiciones.
                 tr
-                  th Transición de estados.
+                  td Transición de estados.
                   td Evalúa cambios de estado.
                   td Sistemas dinámicos.
     .titulo.mb-4(data-aos="fade-left")
@@ -204,7 +204,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figura 4.
+          h5 Figura 5.
           span Enfoque de prueba unitaria
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -212,10 +212,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema4/img14.svg', alt='Figura 4 que representa el flujo básico de una prueba unitaria, en el que entradas de prueba se aplican a una unidad de código aislada. El resultado obtenido se compara con el resultado esperado, determinando si la prueba es exitosa o fallida, mientras las dependencias externas se muestran separadas y no intervienen en la ejecución.')
+                img(src='@/assets/curso/temas/tema4/img14.svg', alt='Figura 5 que representa el flujo básico de una prueba unitaria, en el que entradas de prueba se aplican a una unidad de código aislada. El resultado obtenido se compara con el resultado esperado, determinando si la prueba es exitosa o fallida, mientras las dependencias externas se muestran separadas y no intervienen en la ejecución.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema4/img14_1.svg', alt='Figura 4 que representa el flujo básico de una prueba unitaria, en el que entradas de prueba se aplican a una unidad de código aislada. El resultado obtenido se compara con el resultado esperado, determinando si la prueba es exitosa o fallida, mientras las dependencias externas se muestran separadas y no intervienen en la ejecución.')
+            img(src='@/assets/curso/temas/tema4/img14_1.svg', alt='Figura 5 que representa el flujo básico de una prueba unitaria, en el que entradas de prueba se aplican a una unidad de código aislada. El resultado obtenido se compara con el resultado esperado, determinando si la prueba es exitosa o fallida, mientras las dependencias externas se muestran separadas y no intervienen en la ejecución.')
     p Una prueba unitaria bien diseñada incluye elementos que permiten estructurar la validación de forma clara y repetible. Estos componentes no solo definen la prueba, sino que garantizan su consistencia y se pueden representar de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -234,23 +234,23 @@
                   th Impacto en la prueba
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Datos de entrada.
+                  td Datos de entrada.
                   td Definen el escenario a evaluar.
                   td Control del comportamiento.
                 tr  
-                  th Unidad evaluada.
+                  td Unidad evaluada.
                   td Código bajo prueba.
                   td Objeto de validación.
                 tr(style="background-color: #F3F9FF;")
-                  th Resultado esperado.
+                  td Resultado esperado.
                   td Define el comportamiento correcto.
                   td Base de comparación.
                 tr
-                  th Resultado obtenido.
+                  td Resultado obtenido.
                   td Resultado real de ejecución.
                   td Evidencia.
                 tr(style="background-color: #F3F9FF;")
-                  th Aserción (#[i assert]).
+                  td Aserción (#[i assert]).
                   td Verifica la igualdad entre resultados.
                   td Determina éxito o fallo.
     p Estos elementos permiten que la prueba sea automatizable y reproducible en cualquier entorno.    

@@ -93,19 +93,19 @@
                   th Entorno de desarrollo (IDE)
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Complejidad.
+                  td Complejidad.
                   td Baja.
                   td Alta.
                 tr 
-                  th Integración.
+                  td Integración.
                   td Limitada.
                   td Completa.
                 tr(style="background-color: #F3F9FF;")
-                  th Rendimiento.
+                  td Rendimiento.
                   td Ligero.
                   td Más robusto.
                 tr
-                  th Funcionalidad.
+                  td Funcionalidad.
                   td Edición básica.
                   td Desarrollo integral.
     p.mb-4 Más allá de su tipo, estas herramientas incorporan las siguientes funcionalidades que impactan directamente en la productividad:
@@ -244,7 +244,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figura 2.
+          h5 Figura 3.
           span Estructura funcional de un #[i framework]
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -252,10 +252,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema2/img19.svg', alt='Figura 2 muestra un esquema simplificado de la estructura funcional de un framework, donde se representan sus componentes principales de manera jerárquica: la arquitectura base, las librerías integradas, la configuración y el código del desarrollador, organizados de manera jerárquica.')
+                img(src='@/assets/curso/temas/tema2/img19.svg', alt='Figura 3 muestra un esquema simplificado de la estructura funcional de un framework, donde se representan sus componentes principales de manera jerárquica: la arquitectura base, las librerías integradas, la configuración y el código del desarrollador, organizados de manera jerárquica.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema2/img19_1.svg', alt='Figura 2 muestra un esquema simplificado de la estructura funcional de un framework, donde se representan sus componentes principales de manera jerárquica: la arquitectura base, las librerías integradas, la configuración y el código del desarrollador, organizados de manera jerárquica.')
+            img(src='@/assets/curso/temas/tema2/img19_1.svg', alt='Figura 3 muestra un esquema simplificado de la estructura funcional de un framework, donde se representan sus componentes principales de manera jerárquica: la arquitectura base, las librerías integradas, la configuración y el código del desarrollador, organizados de manera jerárquica.')
     p Los #[i frameworks] se especializan según el tipo de aplicación que se desea desarrollar, lo que permite optimizar soluciones específicas.
     p.mb-4 La clasificación de #[i frameworks] por contexto incluye estos tipos:
 

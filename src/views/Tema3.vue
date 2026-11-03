@@ -87,7 +87,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figura 3.
+          h5 Figura 4.
           span Relación entre servidor #[i web] y servidor de aplicaciones
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -95,10 +95,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema3/img7.svg', alt='Figura 3 que relaciona un esquema donde se muestra la interacción entre el servidor web y el servidor de aplicaciones, a partir de una solicitud HTTP del cliente hasta la entrega de la respuesta final.')
+                img(src='@/assets/curso/temas/tema3/img7.svg', alt='Figura 4 que relaciona un esquema donde se muestra la interacción entre el servidor web y el servidor de aplicaciones, a partir de una solicitud HTTP del cliente hasta la entrega de la respuesta final.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema3/img7_1.svg', alt='Figura 3 que relaciona un esquema donde se muestra la interacción entre el servidor web y el servidor de aplicaciones, a partir de una solicitud HTTP del cliente hasta la entrega de la respuesta final.')
+            img(src='@/assets/curso/temas/tema3/img7_1.svg', alt='Figura 4 que relaciona un esquema donde se muestra la interacción entre el servidor web y el servidor de aplicaciones, a partir de una solicitud HTTP del cliente hasta la entrega de la respuesta final.')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4

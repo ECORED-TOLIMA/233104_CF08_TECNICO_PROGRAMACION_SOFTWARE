@@ -42,19 +42,19 @@
                   th Usuario objetivo
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Técnica.
+                  td Técnica.
                   td Estructura y funcionamiento del sistema.
                   td Desarrolladores.
                 tr 
-                  th Funcional.
+                  td Funcional.
                   td Comportamiento del sistema.
                   td Analistas.
                 tr(style="background-color: #F3F9FF;")
-                  th Usuario.
+                  td Usuario.
                   td Uso del sistema.
                   td Usuarios finales.
                 tr
-                  th Operativa.
+                  td Operativa.
                   td Instalación y despliegue.
                   td Administradores.
     p Una documentación adecuada no debe ser extensa sin propósito, sino estructurada, orientada a facilitar la comprensión y, además de ello, debe:
@@ -162,7 +162,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figura 5.
+          h5 Figura 6.
           span Organización estructural del código
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -170,10 +170,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img16.svg', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
+                img(src='@/assets/curso/temas/tema5/img16.svg', alt='Figura 6 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img16_1.svg', alt='Figura 5 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
+            img(src='@/assets/curso/temas/tema5/img16_1.svg', alt='Figura 6 que representa la estructura que organiza un sistema de #[i software] en niveles jerárquicos —sistema, módulos, componentes, clases y funciones— destacando una estructura organizada, la separación de responsabilidades y la mantenibilidad del código como principios asociados a una correcta organización del software.')
     separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Manuales de usuario y técnicas de documentación
@@ -292,23 +292,23 @@
                   th Riesgo si se ignora
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th SRP.
+                  td SRP.
                   td Separar responsabilidades como validación, lógica de negocio y acceso a datos en componentes distintos.
                   td Código acoplado y difícil de mantener.
                 tr                
-                  th DRY.
+                  td DRY.
                   td Centralizar la lógica común en funciones o módulos reutilizables.
                   td Duplicidad de código y mayor probabilidad de errores.
                 tr(style="background-color: #F3F9FF;")
-                  th KISS.
+                  td KISS.
                   td Elegir soluciones simples y comprensibles, evitando estructuras innecesariamente complejas.
                   td Complejidad innecesaria y baja legibilidad.
                 tr
-                  th YAGNI.
+                  td YAGNI.
                   td Implementar únicamente la funcionalidad requerida en el momento.
                   td Sobrediseño y aumento del esfuerzo de mantenimiento.
                 tr(style="background-color: #F3F9FF;")
-                  th Open/Closed.
+                  td Open/Closed.
                   td Extender el comportamiento del sistema sin modificar el código existente.
                   td Fragilidad del sistema y riesgo de introducir fallos.
     .titulo.mb-4(data-aos="fade-left")
@@ -361,14 +361,17 @@
           p.mb-0 El flujo de comprensión del código se da siguiendo esta secuencia:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
+        .titulo-sexto.color-primario.mb-3.mt-4
+          h5 Figura 7.
+          span Secuencia del proceso de comprensión del código
         .d-none.d-lg-block.mb-4
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img27.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema5/img27.svg', alt='Figura 7 que contiene un diagrama de flujo que representa la secuencia del proceso de comprensión del código en cinco etapas: código, lectura, interpretación, comprensión y mantenimiento, conectadas mediante flechas de izquierda a derecha.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img27_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema5/img27_1.svg', alt='Figura 7 que contiene un diagrama de flujo que representa la secuencia del proceso de comprensión del código en cinco etapas: código, lectura, interpretación, comprensión y mantenimiento, conectadas mediante flechas de izquierda a derecha.')
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Manejo de errores y robustez
@@ -378,7 +381,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Figura 6.
+          h5 Figura 8.
           span Niveles de manejo de errores
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -386,10 +389,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img28.svg', alt='Figura 6 que integra cuatro niveles interconectados: preventivo, asociado a la validación de datos para evitar fallos antes de que ocurran; correctivo, centrado en los mecanismos de recuperación que permiten continuar la operación del sistema; informativo, vinculado al registro de eventos (logs) para facilitar el diagnóstico y análisis posterior; detectivo, orientado a la captura de errores con el fin de identificar problemas durante la ejecución. ')
+                img(src='@/assets/curso/temas/tema5/img28.svg', alt='Figura 8 que integra cuatro niveles interconectados: preventivo, asociado a la validación de datos para evitar fallos antes de que ocurran; correctivo, centrado en los mecanismos de recuperación que permiten continuar la operación del sistema; informativo, vinculado al registro de eventos (logs) para facilitar el diagnóstico y análisis posterior; detectivo, orientado a la captura de errores con el fin de identificar problemas durante la ejecución. ')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img28_1.svg', alt='Figura 6 que integra cuatro niveles interconectados: preventivo, asociado a la validación de datos para evitar fallos antes de que ocurran; correctivo, centrado en los mecanismos de recuperación que permiten continuar la operación del sistema; informativo, vinculado al registro de eventos (logs) para facilitar el diagnóstico y análisis posterior; detectivo, orientado a la captura de errores con el fin de identificar problemas durante la ejecución. ')
+            img(src='@/assets/curso/temas/tema5/img28_1.svg', alt='Figura 8 que integra cuatro niveles interconectados: preventivo, asociado a la validación de datos para evitar fallos antes de que ocurran; correctivo, centrado en los mecanismos de recuperación que permiten continuar la operación del sistema; informativo, vinculado al registro de eventos (logs) para facilitar el diagnóstico y análisis posterior; detectivo, orientado a la captura de errores con el fin de identificar problemas durante la ejecución. ')
     p.mb-4 Para finalizar este tema, el siguiente video ejemplifica buenas y malas prácticas de programación mediante casos reales de código, mostrando cómo la estructuración, la legibilidad y el manejo de errores influyen directamente en la calidad y mantenibilidad del #[i software]:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
